@@ -3,3 +3,11 @@
   tasks:
    - name: ping module
      ping:
+- name: paly2
+  hosts: all
+  tasks:
+   - name: create an empty file in the remote nodes
+     file:
+       path: /tmp/demo
+       state: touch
+     
