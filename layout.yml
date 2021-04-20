@@ -10,4 +10,8 @@
      file:
        path: /tmp/demo
        state: touch
+   - name: remove demo file
+     file:
+       path: /tmp/demo
+       state: absent
      
