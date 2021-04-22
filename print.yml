@@ -1,6 +1,6 @@
--name: To print hello world message
- hosts: all
- tasks:
-   - name: printing message
-     debug:
-       msg: "Hello world"
+- name: To print hello world message
+  hosts: all
+  tasks:
+    - name: printing message
+      debug:
+        msg: "Hello world"
