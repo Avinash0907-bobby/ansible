@@ -1,8 +1,8 @@
 - name: To print hello world message
   hosts: all
   vars: 
-    URL: this is local varible
+    message: this is local varible
   tasks:
     - name: printing message
       debug:
-        msg: 
+        msg: "{{}}"
