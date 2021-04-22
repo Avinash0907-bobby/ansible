@@ -1,4 +1,4 @@
--name: To print some message on the console
+-name: To print hello world messa
  hosts: all
  tasks:
    - name: printing message on the console
