@@ -3,4 +3,4 @@
   tasks:
     - name: printing message
       debug:
-        msg: "Hello world"
+        msg: System {{ inventory_hostname }} has gateway {{ ansible_default_ipv4.gateway }}
