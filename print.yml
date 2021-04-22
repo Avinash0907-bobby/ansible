@@ -1,6 +1,6 @@
 -name: To print some message on the console
  hosts: all
  tasks:
-   -name: printing message on the console
-    debug:
-     -msg: "Hello world"
+   - name: printing message on the console
+     debug:
+       -msg: "Hello world"
